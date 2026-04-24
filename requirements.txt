@@ -1,0 +1,21 @@
+# ── Core Framework ────────────────────────────────────────────────────────────
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# ── Database ──────────────────────────────────────────────────────────────────
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.36
+PyMySQL==1.1.0              # MySQL driver (used for Cloud SQL)
+
+# ── Authentication ────────────────────────────────────────────────────────────
+Flask-Login==0.6.3
+Flask-Bcrypt==1.0.1
+
+# ── Google Cloud (optional, for GCS receipt upload) ───────────────────────────
+google-cloud-storage==2.13.0
+
+# ── Production WSGI server ────────────────────────────────────────────────────
+gunicorn==21.2.0
+
+# ── Cloud SQL connector (for App Engine) ──────────────────────────────────────
+cloud-sql-python-connector[pymysql]==1.7.0

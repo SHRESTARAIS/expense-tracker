@@ -1,0 +1,6 @@
+runtime: python311
+entrypoint: gunicorn -b :$PORT run:app
+
+env_variables:
+  SECRET_KEY: "budgetbuddy2024key123"
+  FLASK_ENV: "production"
